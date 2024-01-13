@@ -1,0 +1,268 @@
+header {
+  background: #1f1f1f;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 180px;
+}
+.header-ul {
+  display: flex;
+  align-items: center;
+}
+.header-ul li {
+  list-style: none;
+  margin-left: 55px;
+}
+.header-ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 110px 120px 65px 130px;
+}
+.banner-left {
+  text-align: start;
+}
+.banner-title {
+  color: #fcb800;
+  font-family: Gilroy;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.banner-title p {
+  margin-top: 5px;
+  color: #ffff;
+  font-family: Gilroy;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.banner-des {
+  margin-top: 5px;
+  color: rgb(167, 167, 167);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Food Card Container Styles  */
+
+.food-card-container {
+  text-align: center;
+  padding: 20px 130px;
+  background: #f3f3f3;
+}
+.card-title {
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.card-des {
+  margin-top: 5px;
+  color: rgb(167, 167, 167);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.main-card-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+}
+.card-container {
+  width: 440px;
+  border-radius: 30px;
+  background: #ffffff;
+  padding: 20px 30px 15px 30px;
+}
+.card-container img {
+  text-align: center;
+}
+.food-info {
+  text-align: start;
+}
+.food-info h1 {
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.food-info p {
+  margin-top: 5px;
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.info-down {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-down i {
+  color: rgb(249, 46, 46);
+  font-size: 25px;
+}
+
+/* Popular Menues Styles */
+
+.popular-container {
+  text-align: center;
+  background: #1f1f1f;
+  padding: 40px 130px 30px 130px;
+}
+.popular-title {
+  margin-top: 5px;
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.popular-des {
+  margin-top: 10px;
+  color: rgb(218, 217, 217);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.popular-card {
+  padding-top: 50px;
+  display: flex;
+  color: #ffff;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+}
+.popular-left {
+  text-align: start;
+  position: relative;
+}
+.popular-left h1 {
+  margin-top: 5px;
+  color: #fcb800;
+
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 180px;
+  position: absolute;
+  left: 30px;
+  top: -250px;
+  font-style: bold;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+.popular-left p {
+  margin-top: 5px;
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.popular-card img {
+  z-index: 1;
+}
+
+.order-btn {
+  margin-top: 10px;
+  border-radius: 20px;
+  background: #fff;
+  padding: 15px 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  color: black;
+  border: none;
+  gap: 5px;
+}
+
+.delivery-app-container {
+  text-align: center;
+  margin-top: 10px;
+  padding: 30px 200px 10px 200px;
+  gap: 50px;
+}
+.delivery-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 43px;
+  font-style: bold;
+  font-weight: 700;
+  color: black;
+}
+.delivery-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+.delivery-right{
+  text-align: start;
+}
+
+.delivery-right-title{
+  font-family: "Times New Roman", Times, serif;
+  text-align: start;
+  font-size: 55px;
+  font-style: bold;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 10px;
+}
+.delivery-right-des{
+  margin-top: 5px;
+  text-align: start;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  color: black;
+}
+.app-card{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+.google-app,.apple-app{
+  background: #212121;
+  color: #fff;
+  border-radius: 12px;
+  padding: 8px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.google-app i,.apple-app i{
+  font-size: 35px;
+}
