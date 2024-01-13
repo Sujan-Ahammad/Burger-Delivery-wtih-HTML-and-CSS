@@ -266,3 +266,12 @@ header {
 .google-app i,.apple-app i{
   font-size: 35px;
 }
+
+.copyright {
+  text-align: center;
+  color: #575757;
+  font-family: "popins", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+}
